@@ -73,7 +73,8 @@ func UpdateEclipseByID(c *gin.Context) {
 	eclipse := storage.UpdateEclipseByID(id, input.Description, input.Duration)
 
 	if eclipse == nil {
-		c.JSON(http.StatusNotFound, gin.H{"error": "Eclipse not found"})
+		eclipseAdd := storage.AddEclipse(input.Description, input.Duration)
+		c.JSON(http.StatusCreated, eclipseAdd)
 		return
 	}
 	c.JSON(http.StatusOK, eclipse)

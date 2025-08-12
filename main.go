@@ -19,7 +19,7 @@ func main() {
 	router.GET("/eclipse", handlers.GetAllEclipses)
 	router.GET("/eclipse/:id", handlers.GetEclipseByID)
 	router.POST("/eclipse/add", handlers.AddEclipse)
-	router.POST("/eclipse/update/:id", handlers.UpdateEclipseByID)
+	router.PUT("/eclipse/update/:id", handlers.UpdateEclipseByID)
 	router.DELETE("/eclipse/delete/:id", handlers.DeleteEclipseByID)
 
 	router.Run(":3000")
