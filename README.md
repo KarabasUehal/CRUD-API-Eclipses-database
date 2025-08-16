@@ -1,5 +1,5 @@
 # CRUD-Eclipses-database
-A CRUD-application that contains information about fictional eclipses.
+A CRUD-API-application that contains information about fictional eclipses.
 
 How to start CRUD-Eclipse-app from Docker-container:
 
