@@ -26,3 +26,7 @@ To make POST, PUT and DELETE requests you can use curl, Postman or similar apps:
 /eclipse/delete/id - use DELETE request to delete some eclipse by id;
 /eclipse/update/id - use PUT request to update some eclipse by id or create new eclipse if such id will not found;
 /eclipse/add - use POST request to add new eclipse.
+
+To find saved data in created docker-volume, enter that path in the PC explorer:
+
+\\wsl.localhost\docker-desktop\mnt\docker-desktop-disk\data\docker\volumes
