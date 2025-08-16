@@ -30,3 +30,5 @@ To make POST, PUT and DELETE requests you can use curl, Postman or similar apps:
 To find saved data in created docker-volume, enter that path in the PC explorer:
 
 \\wsl.localhost\docker-desktop\mnt\docker-desktop-disk\data\docker\volumes
+
+Thanks for reading!
